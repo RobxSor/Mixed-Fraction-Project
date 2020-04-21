@@ -93,6 +93,7 @@ public class Fraction {
         if (getDenominator() < 0) {
             setNumerator(-1 * getNumerator());
             setDenominator(-1 * getDenominator());
+        // this part is optional, since the "if" statement can make both the num and den positive.    
         } else if (getDenominator() < 0 && getNumerator() < 0) {
             setNumerator(-1 * getNumerator());
             setDenominator(-1 * getDenominator());
